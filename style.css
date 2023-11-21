@@ -14,17 +14,23 @@
 ::selection {
     background-color: var(--color-tertiary);
 }
-*, ::before, ::after {
+
+*,
+::before,
+::after {
     box-sizing: border-box;
 }
+
 button {
     cursor: pointer;
 }
+
 body {
     padding-inline: 100px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 nav {
     height: 100px;
     width: 1149px;
@@ -40,13 +46,14 @@ nav {
 nav .logo {
     width: 250px;
     height: 40px;
-    
+
 }
 
 nav .logo img {
     width: 100%;
     height: 100%;
 }
+
 #navbar {
     list-style-type: none;
     display: flex;
@@ -121,5 +128,43 @@ nav .logo img {
 }
 
 .homePageHead .liteContent {
-    
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 288px;
+    bottom: -195px;
+    /* opacity: .5; */
+    background-color: transparent;
+}
+
+.homePageHead .liteContent .content {
+    height: 100%;
+    width: 270px;
+    text-align: center;
+    background-color: var(--color-primary);
+}
+
+.homePageHead .liteContent .content div {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.content :hover::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-tertiary);
+    content: "";
+}
+
+.contentStuff {
+    color: var(--text-color-header);
+    margin-inline: 25px;
+    font-size: 15px;
+    cursor: default;
 }
