@@ -1,0 +1,125 @@
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #2c2a58;
+    --color-tertiary: #bd9c6c;
+    --text-color-main: ;
+    --text-color-header: #2c2a58;
+    --text-color-contrast: #ffffff;
+    --button-color-: ;
+    --button-color-hover: ;
+    --button-custom-border: none;
+}
+
+
+::selection {
+    background-color: var(--color-tertiary);
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+body {
+    padding-inline: 100px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    height: 100px;
+    width: 1149px;
+    padding-inline: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color: var(--color-primary);
+    position: fixed;
+    top: 0;
+}
+
+nav .logo {
+    width: 250px;
+    height: 40px;
+    
+}
+
+nav .logo img {
+    width: 100%;
+    height: 100%;
+}
+#navbar {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin-left: 25px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 11px;
+    color: var(--text-color-header);
+}
+
+#courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: var(--button-custom-border);
+    background-color: transparent;
+    position: relative;
+    font-size: 11px;
+    margin-left: 25px;
+}
+
+#courses div {
+    position: absolute;
+    top: 20px;
+    display: none;
+}
+
+#courses div a {
+    display: block;
+    text-decoration: none;
+}
+
+.homePageHead {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    margin-top: 100px;
+    position: relative;
+}
+
+.homePageHead div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.homePageHead video {
+    width: 100%;
+    position: absolute;
+    top: -150px;
+    opacity: .7;
+}
+
+.homePageHead h2 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 900px;
+    color: var(--text-color-contrast);
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+
+.homePageHead .liteContent {
+    
+}
