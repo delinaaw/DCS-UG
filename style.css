@@ -418,32 +418,32 @@ nav .logo img {
     margin-left: 30px;
     border-top: 5px solid var(--color-tertiary);
     display: inline-block;
-    padding-top: 10px;
     font-size: 40px;
     color: var(--text-color-header);
 }
-.undergraduate-description {
+.other-pages-description {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-inline: 60px;
     margin-top: 20px;
     border-bottom: 1px solid #bdbaba;
 }
-.undergraduate-description div {
+.other-pages-description div {
     width: 600px;
-    height: 380px;
+    height: 400px;
     margin-bottom: 30px;
 }
-.undergraduate-description div img {
+.other-pages-description div img {
     width: 100%;
     height: 100%;
 }
-.undergraduate-description div h2 {
+.other-pages-description div h2 {
     font-size: 34px;
     margin: 0;
     color: var(--text-color-header);
 }
-.undergraduate-description div p {
+.other-pages-description div p {
     font-size: 16px;
     text-align: justify;
     line-height: 25px;
@@ -451,16 +451,21 @@ nav .logo img {
 }
 .the-courses {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     padding-inline: 100px;
+    margin-top: 20px;
 }
 .degree {
     width: 550px;
 }
+.degree .prof {
+    width: 100%;
+}
 .the-courses-header {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     color: var(--text-color-header);
 }
 .levels {
@@ -502,7 +507,7 @@ nav .logo img {
     
 }
 .semester h4 {
-    
+
 }
 
 
@@ -510,6 +515,7 @@ footer {
     background-color: var(--color-secondary);
     color: var(--text-color-contrast);
     margin-bottom: 15px;
+    margin-top: 30px;
 }
 .footer-container {
     display: flex;
