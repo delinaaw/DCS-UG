@@ -15,12 +15,14 @@
         <div class="logo"><img src="./Assets/Images/comScience_logo.png" alt="Department logo"></div>
         <ul id="navbar">
             <li><a href="./Home.html">HOME</a></li>
-            <button id="courses">COURSES <img src="./Assets/Icons/arrow_drop_down_FILL1_wght400_GRAD0_opsz24.svg"
-                    alt="">
-                <div id="coursesMenu">
-                    <a href="./undergraduate_courses.html">UNDERGRADUATE COURSES</a>
-                    <a href="./graduate_courses.html">GRADUATE COURSES</a>
-                </div>
+            <div id="courses-container">
+                <button id="courses">COURSES <img src="./Assets/Icons/arrow_drop_down_FILL1_wght400_GRAD0_opsz24.svg"
+                        alt="">
+                    <div id="courses-menu">
+                        <a href="./undergraduate_courses.html">UNDERGRADUATE COURSES</a>
+                        <a href="./graduate_courses.html">GRADUATE COURSES</a>
+                    </div>
+            </div>
             </button>
             <li><a href="./events.html">EVENTS</a></li>
             <li><a href="./About.html">ABOUT</a></li>
@@ -98,25 +100,25 @@
         </div>
         <div>
             <h2>Ph.D. programmes</h2>
-            <p>Our doctoral programme is a full-time research programme 
-                with expected duration of 4-years. For the successful 
-                completion of this programme, a high level of commitment 
+            <p>Our doctoral programme is a full-time research programme
+                with expected duration of 4-years. For the successful
+                completion of this programme, a high level of commitment
                 is required. <br>
 
-                Students are therefore expected to reside close to the 
-                University and be a full-time participant in the program. 
-                With guidance from postgraduate committee, Ph.D. students 
-                will create a personalized program of study that includes 
-                a major area of specialization and at least two minor areas 
+                Students are therefore expected to reside close to the
+                University and be a full-time participant in the program.
+                With guidance from postgraduate committee, Ph.D. students
+                will create a personalized program of study that includes
+                a major area of specialization and at least two minor areas
                 of specialization. <br>
-                
-                In addition to coursework, the department holds regular 
-                seminars where students and faculty review and critique 
-                research in the field. To foster prudent critique, students 
-                are expected to join at most one research lab and participate 
-                in research activities carried out by the group. The research 
-                areas of the department are Intelligent Space and Machine 
-                Learning, Data Science/Big Data Analytics, Networking and 
+
+                In addition to coursework, the department holds regular
+                seminars where students and faculty review and critique
+                research in the field. To foster prudent critique, students
+                are expected to join at most one research lab and participate
+                in research activities carried out by the group. The research
+                areas of the department are Intelligent Space and Machine
+                Learning, Data Science/Big Data Analytics, Networking and
                 Communications Engineering, and Cyber Security. <br>
         </div>
     </div>
@@ -129,58 +131,62 @@
     <div class="the-courses">
         <div class="degree">
             <div class="the-courses-header" style="text-align: center;">COURSE STRUCTURE</div>
-            <div class="levels" onclick="toggleLevels(this)">Year 1 <img src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
+            <div class="levels" onclick="toggleLevels(this)">Year 1 <img
+                    src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
             <div class="course-names">
                 <div class="semester">
                     <h3>First Semester</h3>
-                    <p>FASC 701	Science and Society (Faculty Wide)</p>
-                    <p>FASC 700	Special Topics in Science</p>
+                    <p>FASC 701 Science and Society (Faculty Wide)</p>
+                    <p>FASC 700 Special Topics in Science</p>
                     <h4>Electives:</h4>
-                    <p>CSCD 721	Grand Research Challenges in Computer Science</p>
-                    <p>CSCD 723	Emerging Database Model</p>
-                    <p>CSCD 725	Research in Bioinformatics and Computational Biology</p>
-                    <p>CSCD 727	Ubiquitous Computing</p>
+                    <p>CSCD 721 Grand Research Challenges in Computer Science</p>
+                    <p>CSCD 723 Emerging Database Model</p>
+                    <p>CSCD 725 Research in Bioinformatics and Computational Biology</p>
+                    <p>CSCD 727 Ubiquitous Computing</p>
                 </div>
                 <div class="semester">
                     <h3>Second Semester</h3>
-                    <p>CSCD 722	New Developments in Cyber Security and Networks</p>
-                    <p>FASC 702	Advanced Quantitative Research Methods</p>
+                    <p>CSCD 722 New Developments in Cyber Security and Networks</p>
+                    <p>FASC 702 Advanced Quantitative Research Methods</p>
                     <h4>Electives:</h4>
-                    <p>CSCD 724	New Developments in Computer Architecture</p>
-                    <p>CSCD 726	Next Generation Wireless Systems and Networks</p>
-                    <p>CSCD 716	New Directions in Artificial Intelligence</p>
-                    <p>CSCD 728	Research Issues in Social Networks</p>
-                    <p>CSCD 732	Advances in High Performance Computing</p>
-                    <p>FASC 710	Teaching Science at the Tertiary Level</p>
+                    <p>CSCD 724 New Developments in Computer Architecture</p>
+                    <p>CSCD 726 Next Generation Wireless Systems and Networks</p>
+                    <p>CSCD 716 New Directions in Artificial Intelligence</p>
+                    <p>CSCD 728 Research Issues in Social Networks</p>
+                    <p>CSCD 732 Advances in High Performance Computing</p>
+                    <p>FASC 710 Teaching Science at the Tertiary Level</p>
                 </div>
             </div>
-            <div class="levels" onclick="toggleLevels(this)">Year 2<img src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
+            <div class="levels" onclick="toggleLevels(this)">Year 2<img
+                    src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
             <div class="course-names">
                 <div class="semester">
                     <h3>First Semester</h3>
-                    <p>CSCD 710	Seminar I (Research Proposal)</p>
+                    <p>CSCD 710 Seminar I (Research Proposal)</p>
                 </div>
                 <div class="semester">
                     <h3>Second Semester</h3>
-                    <p>CSCD 720	Seminar II (Experiential research learning)</p>
+                    <p>CSCD 720 Seminar II (Experiential research learning)</p>
                 </div>
             </div>
-            <div class="levels" onclick="toggleLevels(this)">Year 3<img src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
+            <div class="levels" onclick="toggleLevels(this)">Year 3<img
+                    src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
             <div class="course-names">
                 <div class="semester">
                     <h3>First Semester</h3>
-                    <p>CSCD 730	Seminar III (Research progress)</p>
+                    <p>CSCD 730 Seminar III (Research progress)</p>
                 </div>
             </div>
-            <div class="levels" onclick="toggleLevels(this)">Year 2<img src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
+            <div class="levels" onclick="toggleLevels(this)">Year 2<img
+                    src="./Assets/Icons/add_FILL1_wght400_GRAD0_opsz24.svg" alt=""></div>
             <div class="course-names">
                 <div class="semester">
                     <h3>Second Semester</h3>
-                    <p>CSCD 740	Seminar IV (Research Results)</p>
-                    <p>CSCD 700	PhD Thesis</p>
+                    <p>CSCD 740 Seminar IV (Research Results)</p>
+                    <p>CSCD 700 PhD Thesis</p>
                 </div>
             </div>
-            
+
         </div>
         <div class="degree">
             <img src="./Assets/Images/RProf.jpg" alt="" class="prof">
@@ -204,8 +210,11 @@
                     <li><a href="./graduate_courses.html">Graduate Courses(MSc Computer Science)</a></li>
                     <li><a href="./graduate_courses.html">Graduate Courses(PhD)</a></li>
                     <li><a href="https://www.ug.edu.gh/academics/calendar">Academic Calendar</a></li>
-                    <li><a href="https://dcs.ug.edu.gh/img/_DEPARTMENT%20OF%20COMPUTER%20SCIENCE,%20UG%20-%20200%20&%20300.pdf">Level 200 & 300 Timetable</a></li>
-                    <li><a href="https://dcs.ug.edu.gh/img/_Placements%20lvl200.pdf">Placements For Level 200 Students</a></li>
+                    <li><a
+                            href="https://dcs.ug.edu.gh/img/_DEPARTMENT%20OF%20COMPUTER%20SCIENCE,%20UG%20-%20200%20&%20300.pdf">Level
+                            200 & 300 Timetable</a></li>
+                    <li><a href="https://dcs.ug.edu.gh/img/_Placements%20lvl200.pdf">Placements For Level 200
+                            Students</a></li>
                     <li><a href="https://forms.gle/smoyM5M3HWaayagk7">Student Complaint Form</a></li>
                 </ul>
             </div>
@@ -216,7 +225,8 @@
                 <ul>
                     <li><a href="http://admission.ug.edu.gh/applying/undergraduate/overview">Undergraduate</a></li>
                     <li><a href="http://admission.ug.edu.gh/applying/postgraduate/overview">Graduate</a></li>
-                    <li><a href="http://admission.ug.edu.gh/applying/international/overview">International Students</a></li>
+                    <li><a href="http://admission.ug.edu.gh/applying/international/overview">International Students</a>
+                    </li>
                     <li><a href="https://dcs.ug.edu.gh/entry">Entry Requirements</a></li>
                     <li><a href="https://dcs.ug.edu.gh/contact">Contact Us</a></li>
                 </ul>
@@ -247,10 +257,10 @@
                     Newsletter
                 </div>
                 <p style="color: #808080;">Stay up to date with our latest</p>
-                    <form action="">
-                        <input type="email" id="email" placeholder="Enter Email Address">
-                        <button type="submit">&#8594;</button>
-                    </form>
+                <form action="">
+                    <input type="email" id="email" placeholder="Enter Email Address">
+                    <button type="submit">&#8594;</button>
+                </form>
             </div>
             <div>
                 <div class="footer-headers">
@@ -279,9 +289,12 @@
             <div class="footer-links">
                 <p style="color: #808080;">Copyright ©2023 All rights reserved</p>
                 <div>
-                    <a href="https://www.facebook.com/University-of-GhanaDepartment-of-Computer-Science-116786389698948/?ref=search&__tn__=%2Cd%2CP-R&eid=ARBBAU8wKSNVs2fNZimGERUZJeac3TbmQsaZDsz4ZoEqZ95bzGZf3siMET6V1B1NuOzqLZwhXCqqrtIt"><img src="" alt="">fb</a>
+                    <a
+                        href="https://www.facebook.com/University-of-GhanaDepartment-of-Computer-Science-116786389698948/?ref=search&__tn__=%2Cd%2CP-R&eid=ARBBAU8wKSNVs2fNZimGERUZJeac3TbmQsaZDsz4ZoEqZ95bzGZf3siMET6V1B1NuOzqLZwhXCqqrtIt"><img
+                            src="" alt="">fb</a>
                     <a href="https://twitter.com/univofghana"><img src="" alt="">ig</a>
-                    <a href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/"><img src="" alt="">X</a>
+                    <a href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/"><img src=""
+                            alt="">X</a>
                 </div>
             </div>
         </div>
