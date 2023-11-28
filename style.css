@@ -510,6 +510,42 @@ nav .logo img {
 
 }
 
+.about-text {
+    padding-inline: 100px;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--text-color-main);
+    text-align: justify;
+    text-align-last: center;
+    padding-bottom: 50px;
+    margin: 0;
+}
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+}
+.about-flex div {
+    width: 550px;
+    height: 400px;
+}
+.about-flex div img {
+    width: 100%;
+    height: 100%;
+}
+.about-flex div h3 {
+    font-size: 24px;
+    color: var(--text-color-header);
+    text-align: center;
+    margin-top: 80px;
+}
+.about-flex div p {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-color-main);
+    text-align: justify;
+    text-align-last: center;
+}
 
 footer {
     background-color: var(--color-secondary);
